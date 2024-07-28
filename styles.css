@@ -5,3 +5,33 @@
     box-sizing: border-box;
 }
 /*   Default Browser style   */
+
+/*  Styles for Header  */
+.header-holder > header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.7);
+}
+.logo-holder > h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.cv-holder {
+
+    margin-top: 8px;
+}
+.cv-holder > a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #00adb5;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+}
+.cv-holder > a:hover {
+    background-color: #00fff5;
+    color: black;
+}
+/*  Styles for Header  *
