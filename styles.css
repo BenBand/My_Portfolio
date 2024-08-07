@@ -54,4 +54,8 @@
     color: white;
     text-decoration: none;
 }
+.navigation-menu-holde > nav > ul > li > a:hover{
+    color: black;
+    background-color: #00fff5 ;
+}
 /*  Styles Navigation Links  */
