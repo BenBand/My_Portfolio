@@ -59,3 +59,10 @@
     background-color: #00fff5 ;
 }
 /*  Styles Navigation Links  */
+
+/*  Styles the slider images  */
+#adaptive > li > img{
+    width: 100%;
+    height: 100vh;
+}
+/*  Styles the slider images  */

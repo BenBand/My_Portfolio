@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
     <link rel="stylesheet" href="styles.css">
     <title>My Portfolio</title>
 </head>
@@ -32,5 +33,44 @@
         </nav>
     </div>
     <!------------ Navigation Manu -------------->
+
+    <!------------ Image Slider -------------->
+    <section class="banner-slider">
+        <ul id="adaptive">
+            <li><img src="/slider Images/representations (1).jpg" alt=""></li>
+            <li><img src="/slider Images/representations (2).jpg" alt=""></li>
+            <li><img src="/slider Images/representations (3).jpg" alt=""></li>
+        </ul>
+    </section>
+    <!------------ Image Slider -------------->
+
+    <!------------ New Feature -------------->
+    <!------------ New Feature 
+    <div class="new-feature-holder">
+        <h3>New Featured Projects</h3>
+        <div class="New-feature-content-holder">
+            <div class="content">
+                <img src="" alt="">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    -------------->
+    <!------------ New Feature -------------->
+
+
+    <!------------ Jquery Links for the Slider -------------->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"> </script>
+    <script>
+        $(document).ready(function() {
+    $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+});
+    </script>
 </body>
 </html>
