@@ -66,3 +66,53 @@
     height: 100vh;
 }
 /*  Styles the slider images  */
+
+/*  Styles the Slider or removing spaces  */
+.lSPager {
+    margin-top: -25px !important;
+}
+/*  Styles the Slider or removing spaces  */
+
+/*  Styles the Main Content  */
+main > h2 {
+    text-align: center;
+    color: darkgray;
+    padding-top: 50px;
+}
+.main-content-holder{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    width: 60%;
+}
+.content {
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.7);
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.main-content > .content > img {
+    width: 60%;
+    height: 200px;
+    border-radius: 3px;
+}
+aside {
+    width: 40%;
+}
+/*  Styles the Main Content  */
+
+/*  Styles the Aside Bar  */
+.aside-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/*  Styles the Aside Bar  */
