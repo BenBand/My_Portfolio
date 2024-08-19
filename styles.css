@@ -74,10 +74,10 @@
 /*  Styles the Slider or removing spaces  */
 
 /*  Styles the Main Content  */
-main {
-    background-color: #222831;
+section {
+    background-color: #fff;
 }
-main > h2 {
+section > h2 {
     text-align: center;
     color: darkgray;
     padding-top: 50px;
@@ -180,9 +180,6 @@ footer {
 }
 /*  Styles the footer Content  */
 
-
-/*  Styles for Pages  */
-
 /*  Styles for Product Page  */
 main {
     background-color: #fff;
@@ -205,8 +202,6 @@ main > h2 {
     border-radius: 3px;
 }
 /*  Styles for Product Page  */
-
-/*  Styles for Pages  */
 
 /*  Resposive Design  */
 @media (max-width: 750px) {
