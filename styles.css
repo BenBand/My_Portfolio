@@ -207,6 +207,19 @@ section > h2 {
 }
 /*  Styles for Product Page  */
 
+/*  Styles for About Page  */
+.about-holder {
+    padding: 10px;
+}
+.about-content > h2 {
+    padding: 10px;
+    color: darkgray;
+}
+.about-content > p {
+    padding: 10px;
+}
+/*  Styles for About Page  */
+
 /*  Resposive Design  */
 @media (max-width: 750px) {
     .header-holder > header {
