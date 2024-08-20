@@ -74,10 +74,10 @@
 /*  Styles the Slider or removing spaces  */
 
 /*  Styles the Main Content  */
-section {
-    background-color: #fff;
+main {
+    background-color: #393e46;
 }
-section > h2 {
+main > h2 {
     text-align: center;
     color: darkgray;
     padding-top: 50px;
@@ -87,6 +87,7 @@ section > h2 {
     padding: 20px;
     flex-direction: row;
     margin-top: 20px;
+    background-color: #393e46 !important;
 }
 .main-content {
     display: flex;
@@ -181,10 +182,10 @@ footer {
 /*  Styles the footer Content  */
 
 /*  Styles for Product Page  */
-main {
+section {
     background-color: #fff;
 }
-main > h2 {
+section > h2 {
     font-size: 2rem;
 }
 .projects-holder {
