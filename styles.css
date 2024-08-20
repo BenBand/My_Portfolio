@@ -335,5 +335,35 @@ section > h2 {
         align-items: center;
         margin-top: 10px;
     }
+    /*Resposive for Project Design*/
+    .projects-holder {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .projects-content > img {
+        width: 100%;
+        height: 180px;
+        border-radius: 3px;
+    }
+    /*Resposive for Project Design*/
+    /*Resposive for Contact Design*/
+    .gmap {
+        width: auto;
+        
+        border-radius: 3px;
+    }
+    .input-field,.btn {
+        width: 100%;
+    }
+    .contact-holder {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+    /*Resposive for Contact Design*/
 }
 /*  Resposive Design  */
