@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <!------------ Google Fonts -------------->
     <link rel="stylesheet" href="/styles.css">
+    <script src="Script.js"></script>
     <title>My Portfolio</title>
 </head>
 <body>
@@ -46,12 +47,18 @@
     <!---- Contact Form ---->
     <div class="contact-holder">
         <div class="form-holder">
-            <form action="">
-                <input type="text" class="input-field" placeholder="Name">
-                <input type="email" class="input-field" placeholder="Email">
-                <input type="text" class="input-field" placeholder="+260 979-937-383">
+            <form method="post" autocomplete="on" onsubmit="return formValidation()" />
+                <input type="text" class="input-field" id="name" placeholder="Name" />
+                <p class="error-message" id="error-name"></p>
+
+                <input type="email" class="input-field" id="email" placeholder="Email" />
+                <p class="error-message" id="error-email"></p>
+
+                <input type="text" class="input-field" id="namber" placeholder="+260 979-937-383" />
+                <p class="error-message" id="error-number"></p>
+
                 <textarea name="" id="" class="input-field" rows="8" placeholder="Text Message"></textarea>
-                <input type="button" class="btn" value="Send Message">
+                <input type="submit" class="btn" value="Send Message" />
             </form>
         </div>
         <div class="timing-holder">
