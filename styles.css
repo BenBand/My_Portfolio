@@ -182,7 +182,7 @@ footer {
 }
 /*  Styles the footer Content  */
 
-/*  Styles for Product Page  */
+/*  Styles for Projects Page  */
 section {
     background-color: #fff;
 }
@@ -195,10 +195,10 @@ section > h2 {
 .projects-holder {
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 .projects-content {
-    padding: 20px;
+    padding: 10px;
     border: 1px solid gainsboro;
 }
 .projects-content > img {
@@ -206,7 +206,25 @@ section > h2 {
     height: 200px;
     border-radius: 3px;
 }
-/*  Styles for Product Page  */
+.project-details {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.project-details > p {
+    margin-top: 10px;
+}
+.project-details > a {
+    padding: 10px;
+    border: 2px solid #c7004c;
+    text-decoration: none;
+    color: #000;
+}
+.project-details > a:hover {
+    background-color: #c7004c;
+    color: #fff;
+}
+/*  Styles for Projects Page  */
 
 /*  Styles for Contact Page  */
 .gmap {
