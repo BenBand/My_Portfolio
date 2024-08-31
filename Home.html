@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-zm">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+    <!------------ Google Fonts -------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <!------------ Google Fonts -------------->
+    <link rel="stylesheet" href="Home.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!------------ Header -------------->
+    <div class="header-holder">
+        <header>
+            <div class="logo-holder">
+                <h1>bb</h1>
+            </div>
+            <div class="cv-holder">
+                <a target="_blank" href="https://docs.google.com/document/d/1hj9lIo1K37Q015_y5PX-bFRM0jaM_YRyTODsOSRUlTA/pub">View My Cv</a>
+            </div>
+        </header>
+    </div>
+    <!------------ Header -------------->
+
+    <!------------ Navigation Manu -------------->
+    <div class="navigation-menu-holde">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Pages/Projects.html">Projects</a></li>
+                <li><a target="_blank" href="Pages/Contact.html">Contact</a></li>
+                <li><a href="Pages/About.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!------------ Navigation Manu -------------->
+
+    <!------------ Image Slider -------------->
+    <section class="banner-slider">
+        <ul id="adaptive">
+            <li><img src="/slider Images/representations (1).jpg" alt=""></li>
+            <li><img src="/slider Images/representations (2).jpg" alt=""></li>
+            <li><img src="/slider Images/TableOrange.png" alt="Full Responsive working School Results Table"></li>
+        </ul>
+    </section>
+    <!------------ Image Slider -------------->
+
+    <!------------ Main Content -------------->
+    <main>
+        <h2>Featured</h2>
+            <div class="featured-holder">
+                <div class="featured-content">
+                    <img src="https://placehold.co/600x400" alt="">
+                    <div class="detail-holder">
+                        <h2>Forms</h2>
+                        <p>Responsive Forms</p>
+                    </div>
+                </div>
+                <div class="featured-content">
+                    <img src="https://placehold.co/600x400" alt="">
+                    <div class="detail-holder">
+                        <h2>Tables</h2>
+                        <p>Responsive Tables</p>
+                    </div>
+                </div>
+                <div class="featured-content">
+                    <img src="https://placehold.co/600x400" alt="">
+                    <div class="detail-holder">
+                        <h2>Portfolio's</h2>
+                        <p>Responsive Website's</p>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <section class="front-page-photos">
+        <div class="front-page-holder">
+            <div class="front-page-content">
+                <img src="https://placehold.co/400" alt="">
+            </div>
+            <div class="front-page-content">
+                <img src="https://placehold.co/400" alt="">
+            </div>
+            <div class="front-page-content">
+                <img src="https://placehold.co/400" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="explore-btn">
+        <a href="">Explore More...</a>
+    </div>
+    <!------------ Main Content -------------->
+
+    <!------------ Jquery Links for the Slider -------------->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"> </script>
+    <script>
+        $(document).ready(function() {
+    $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+});
+    </script>
+    <!------------ Jquery Links for the Slider -------------->
+</body>
+</html>
