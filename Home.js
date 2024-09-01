@@ -1,5 +1,7 @@
 // Selecting form fields using "getElementById" selector
 function formValidation() {
+
+   
     const userName = document.getElementById("name").value;
     const userEmail = document.getElementById("email").value;
     const userNumber = document.getElementById("namber").value;
@@ -24,10 +26,12 @@ function formValidation() {
         errorName.textContent = "Please enter your name";
         isValid = false;
     }
+    
     if(userEmail === ""){
         errorEmail.textContent = "Please enter your email";
         isValid = false;
     }
+    
     if(!userEmail.includes("@")){
         errorEmail.textContent = "Please enter your email properly";
         isValid = false;
@@ -37,6 +41,7 @@ function formValidation() {
         erroNumber.textContent = "Please enter your correct phone number";
         isValid = false;
     }
+    
     if(userMessage === ""){
         erroTextMessage.textContent = "Text field cannot be empty";
         isValid = false;
