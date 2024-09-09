@@ -48,30 +48,3 @@ function formValidation() {
     }
     return isValid;
 }
-
-/*
-import axios from "axios"
-import download from  "downloadjs" 
- */
-
-/* 
-export const downloadCv = async () => {
-    const url =`https://www.googleapis.com/drive/v3/files${import.meta.env.VITE_DOCUMENT_ID}/export?key=${import.meta.env.VITE_API_KEY}&?mimetype=application=pdf`
-
-    const response = await axios.get(url, {responseType: 'blob', params: {'mimeType': 'application/pdf'}})
-
-    try {
-        download(response.data, 'Bernard_Banda_Cv.pdf', 'application/pdf')
-    } catch (error) {
-        console.debug(`Error getting file: ${error}`)
-    }
-}
- */
-
-/*
-import { visitCv } from ' /.functions'
-
-export const visitCv = async () => {
-    window.location.assign('https://docs.google.com/document/d/1hj9lIo1K37Q015_y5PX-bFRM0jaM_YRyTODsOSRUlTA/pub')
-}
- */
