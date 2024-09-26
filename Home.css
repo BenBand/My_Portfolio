@@ -222,32 +222,28 @@ section > h2 {
     margin-top: 35px;
 }
 .projects-content {
-    padding: 10px;
+    width: 440px;
+    height: 300px;
+    padding: 40px;
     border: 1px solid gainsboro;
+    margin-bottom: 30px;
 }
 .projects-content > img {
     width: 100%;
-    height: 200px;
+    height: 100%;
+    object-fit: cover;
     border-radius: 3px;
-    margin-top: 15px;
+    margin-bottom: 10px;
 }
-.project-details {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
+.projects-content > p {
+    color: gray;
 }
-.project-details > p {
-    margin-top: 10px;
-}
-.project-details > a {
-    padding: 10px;
-    border: 2px solid #c7004c;
+.projects-content > a {
+    position: relative;
+    left: 265px;
+    top: -20px;
     text-decoration: none;
-    color: #000;
-}
-.project-details > a:hover {
-    background-color: #c7004c;
-    color: #fff;
+    color: #00adb5;
 }
 /*  Styles for Projects Page  */
 
